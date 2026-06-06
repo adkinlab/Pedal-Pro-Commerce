@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "iBJ-7e2RcRywVHUmaQ6Gm"
+uri = "file://artifacts/pedal-pro/public/hero.png"
+type = "image"
+title = "Hero cyclist on mountain bike"
+
+[[generated]]
+id = "m29wWp8hYsFi4qpfbnM0S"
+uri = "file://artifacts/pedal-pro/public/product-1.png"
+type = "image"
+title = "Red mountain bike"
+
+[[generated]]
+id = "VYGXw9olLIRuPhgWXaCDj"
+uri = "file://artifacts/pedal-pro/public/product-2.png"
+type = "image"
+title = "City commuter bike"
+
+[[generated]]
+id = "NDt6VBzAtHcKRPus3IaU8"
+uri = "file://artifacts/pedal-pro/public/product-3.png"
+type = "image"
+title = "Aerodynamic road bike"
+
+[[generated]]
+id = "8Hqrbr69Rqie5x2FK9zVz"
+uri = "file://artifacts/pedal-pro/public/product-4.png"
+type = "image"
+title = "Versatile hybrid bike"
+
+[[generated]]
+id = "ZHcHODZLdetxsNUqb5feO"
+uri = "file://artifacts/pedal-pro/public/product-5.png"
+type = "image"
+title = "Kids adventure bike"
+
+[[generated]]
+id = "8UkhtHEq_y73BrveUD8Tt"
+uri = "file://artifacts/pedal-pro/public/product-6.png"
+type = "image"
+title = "XC racing mountain bike"
+
+[[generated]]
+id = "KWfkyLnreaQv2mqQ-oY-j"
+uri = "file://artifacts/pedal-pro/public/category-1.png"
+type = "image"
+title = "Mountain biking scene"
+
+[[generated]]
+id = "cO-rgO9Zx4rnHLSwBbgZs"
+uri = "file://artifacts/pedal-pro/public/category-2.png"
+type = "image"
+title = "Road biking scene"
+
+[[generated]]
+id = "4NNRrnh8QPHxc5eJF-7IV"
+uri = "file://artifacts/pedal-pro/public/category-3.png"
+type = "image"
+title = "Hybrid biking scene"

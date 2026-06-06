@@ -1,0 +1,95 @@
+10:15:48.020
+artifacts/pedal-pro typecheck: Done
+10:15:48.610
+Scope: 8 of 9 workspace projects
+10:15:48.619
+artifacts/mockup-sandbox build$ vite build
+10:15:49.368
+artifacts/mockup-sandbox build: vite v7.3.3 building client environment for production...
+10:15:49.512
+artifacts/mockup-sandbox build: transforming...
+10:15:50.944
+artifacts/mockup-sandbox build: ✓ 30 modules transformed.
+10:15:51.169
+artifacts/mockup-sandbox build: rendering chunks...
+10:15:51.181
+artifacts/mockup-sandbox build: computing gzip size...
+10:15:51.203
+artifacts/mockup-sandbox build: dist/index.html                   4.42 kB │ gzip:  1.23 kB
+10:15:51.208
+artifacts/mockup-sandbox build: dist/assets/index-DrPSyDZV.css   89.62 kB │ gzip: 14.86 kB
+10:15:51.209
+artifacts/mockup-sandbox build: dist/assets/index-YsQ1ZR0e.js   187.72 kB │ gzip: 59.51 kB
+10:15:51.210
+artifacts/mockup-sandbox build: ✓ built in 1.78s
+10:15:51.271
+artifacts/mockup-sandbox build: Done
+10:15:51.272
+artifacts/api-server build$ node ./build.mjs
+10:15:51.273
+artifacts/pedal-pro build$ vite build --config vite.config.ts
+10:15:51.849
+artifacts/pedal-pro build: failed to load config from /opt/buildhome/repo/artifacts/pedal-pro/vite.config.ts
+10:15:51.850
+artifacts/pedal-pro build: error during build:
+10:15:51.851
+artifacts/pedal-pro build: Error: PORT environment variable is required but was not provided.
+10:15:51.851
+artifacts/pedal-pro build:     at file:///opt/buildhome/repo/artifacts/pedal-pro/node_modules/.vite-temp/vite.config.ts.timestamp-1780715751587-dbfa2d05e93b7.mjs:10:9
+10:15:51.851
+artifacts/pedal-pro build:     at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+10:15:51.851
+artifacts/pedal-pro build:     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+10:15:51.851
+artifacts/pedal-pro build:     at async loadConfigFromBundledFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35936:12)
+10:15:51.852
+artifacts/pedal-pro build:     at async bundleAndLoadConfigFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35824:17)
+10:15:51.852
+artifacts/pedal-pro build:     at async loadConfigFromFile (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35791:42)
+10:15:51.852
+artifacts/pedal-pro build:     at async resolveConfig (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:35440:22)
+10:15:51.852
+artifacts/pedal-pro build:     at async createBuilder (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/chunks/config.js:33895:19)
+10:15:51.852
+artifacts/pedal-pro build:     at async CAC.<anonymous> (file:///opt/buildhome/repo/node_modules/.pnpm/vite@7.3.3_@types+node@25.6.2_jiti@2.7.0_lightningcss@1.32.0_tsx@4.21.0_yaml@2.8.4/node_modules/vite/dist/node/cli.js:629:10)
+10:15:51.876
+artifacts/pedal-pro build: Failed
+10:15:51.897
+/opt/buildhome/repo/artifacts/pedal-pro:
+10:15:51.898
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @workspace/pedal-pro@0.0.0 build: `vite build --config vite.config.ts`
+10:15:51.898
+Exit status 1
+10:15:51.898
+artifacts/api-server build:   dist/index.mjs                       1.4mb ⚠️
+10:15:51.898
+artifacts/api-server build:   dist/pino-worker.mjs               153.4kb
+10:15:51.898
+artifacts/api-server build:   dist/pino-file.mjs                 142.1kb
+10:15:51.904
+artifacts/api-server build:   dist/pino-pretty.mjs               114.6kb
+10:15:51.904
+artifacts/api-server build:   dist/thread-stream-worker.mjs        7.3kb
+10:15:51.904
+artifacts/api-server build:   dist/index.mjs.map                   2.1mb
+10:15:51.904
+artifacts/api-server build:   dist/pino-worker.mjs.map           256.9kb
+10:15:51.905
+artifacts/api-server build:   dist/pino-file.mjs.map             229.0kb
+10:15:51.905
+artifacts/api-server build:   dist/pino-pretty.mjs.map           204.0kb
+10:15:51.905
+artifacts/api-server build:   dist/thread-stream-worker.mjs.map   12.0kb
+10:15:51.905
+artifacts/api-server build: ⚡ Done in 459ms
+10:15:51.905
+artifacts/api-server build: Done
+10:15:51.951
+ ELIFECYCLE  Command failed with exit code 1.
+10:15:52.002
+Failed: error occurred while running build command
+Support
+System Status
+Careers
+Terms of Use
+Report Security Issues
